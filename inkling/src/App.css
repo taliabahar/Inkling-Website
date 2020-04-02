@@ -1,0 +1,50 @@
+/* html,
+body {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 0;
+} */
+
+/* .App {
+  width: fit-content;
+  height: fit-content;
+} */
+
+.App {
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+.logo {
+  text-align: center;
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+#brand {
+  font-size: 22px;
+}
+.Nav {
+  background-color: #6052a3;
+  font-size: 22px;
+}
+
+#welcome {
+  margin-top: 20%;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+.row {
+  margin: 0;
+}
