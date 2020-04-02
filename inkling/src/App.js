@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <Grid padded stackable divided="vertically">
+      <Grid padded stackable divided="vertically" textAlign="center">
         <Grid.Row columns={2}>
           <Grid.Column>
             <div id="welcome">
@@ -27,7 +27,7 @@ function App() {
         <Grid.Row className="row" columns={1}>
           <About></About>
         </Grid.Row>
-        <Grid.Row>
+        <Grid.Row className="row">
           <Code></Code>
         </Grid.Row>
       </Grid>
