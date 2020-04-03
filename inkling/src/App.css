@@ -11,17 +11,14 @@ body {
   height: fit-content;
 } */
 
-.App {
+.App,
+html {
   width: fit-content;
   height: fit-content;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  text-align: center;
-}
 .logo {
   text-align: center;
   margin-top: 10%;
@@ -31,21 +28,44 @@ h1 {
 
 #brand {
   font-size: 22px;
+  font-weight: bolder;
 }
 .Nav {
   background-color: #6052a3;
   font-size: 22px;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 #welcome {
   margin-top: 20%;
+  border: solid 2px grey;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  padding: 100px;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 h2 {
   font-size: 400% !important;
+  /* font-family: "Roboto Mono", monospace; */
+  /* font-family: "IBM Plex Mono", monospace; */
+  font-family: "VT323", monospace;
   /* background-color: aqua; */
 }
 
+h1 {
+  text-align: center;
+  /* font-family: "Roboto Mono", monospace; */
+  /* font-family: "IBM Plex Mono", monospace; */
+  font-family: "VT323", monospace;
+  font-size: 50px !important;
+}
 .row {
   margin: 0 !important;
+}
+
+.about {
+  text-align: left;
 }

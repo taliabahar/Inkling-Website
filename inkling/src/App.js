@@ -13,11 +13,12 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <Grid padded stackable divided="vertically" textAlign="center">
+      <Grid stackable divided="vertically" textAlign="center" relaxed>
         <Grid.Row columns={2}>
           <Grid.Column>
             <div id="welcome">
-              <h2>Welcome to Inkling.</h2> <h2>Let's get coding!</h2>
+              {/* <h2> > Where will your inkling take you today?</h2> */}
+              <h2>> Welcome to Inkling.</h2> <h2>Let's get coding!</h2>
             </div>
           </Grid.Column>
           <Grid.Column>
