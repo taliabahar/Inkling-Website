@@ -18,8 +18,9 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="about">About</Nav.Link>
             <Nav.Link href="#code">Code Examples</Nav.Link>
+            <Nav.Link href="#team">Meet the Team</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="https://github.com/mpeglerg/Inkling">

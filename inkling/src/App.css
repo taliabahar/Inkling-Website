@@ -19,9 +19,15 @@ html {
   padding: 0;
 }
 
+.App {
+  position: absolute;
+}
+/* .row {
+} */
+
 .logo {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 8%;
   width: 100%;
   height: 100%;
 }
@@ -31,41 +37,65 @@ html {
   font-weight: bolder;
 }
 .Nav {
-  background-color: #6052a3;
+  /* background-color: #6052a3; */
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(96, 82, 163, 0.654499299719888) 10%,
+    rgba(96, 82, 163, 1) 100%
+  );
+
   font-size: 22px;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); */
 }
 
 #welcome {
-  margin-top: 20%;
-  border: solid 2px grey;
-  border-radius: 12px;
-  background-color: black;
-  color: white;
+  margin-top: 15%;
   padding: 100px;
-  /* align-items: center;
-  justify-content: center; */
 }
 
 h2 {
   font-size: 400% !important;
-  /* font-family: "Roboto Mono", monospace; */
-  /* font-family: "IBM Plex Mono", monospace; */
   font-family: "VT323", monospace;
-  /* background-color: aqua; */
 }
 
 h1 {
   text-align: center;
-  /* font-family: "Roboto Mono", monospace; */
-  /* font-family: "IBM Plex Mono", monospace; */
   font-family: "VT323", monospace;
   font-size: 50px !important;
 }
-.row {
-  margin: 0 !important;
+
+p {
+  text-align: left;
+  margin: 0 13%;
+  font-size: 25px;
+  /* font-family: "Roboto Mono", monospace;
+  font-family: "IBM Plex Mono", monospace; */
+  text-indent: 30px;
 }
 
-.about {
-  text-align: left;
+pre {
+  font-size: 13px !important;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace !important;
+  color: #6052a3 !important;
+}
+
+/* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: lightgray;
+  font-size: 15px;
+  margin: 0 auto; */
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: lightgray;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
 }
