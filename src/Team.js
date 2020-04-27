@@ -1,10 +1,16 @@
 import React from "react";
 import { Card, Image } from "semantic-ui-react";
+import veda from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Veda.JPG";
+import cooper from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Cooper.jpg";
+import maya from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Maya.jpeg";
+import marco from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Marco.jpeg";
 
 function Team() {
   return (
     <div className="Team">
-      <h1>Meet the Team</h1>
+      <h1>
+        <a id="team">Meet the Team </a>{" "}
+      </h1>
       <Card.Group centered>
         <Card style={{ margin: "15px 30px" }}>
           <Image
@@ -27,11 +33,7 @@ function Team() {
           </Card.Content>
         </Card>
         <Card style={{ margin: "15px 30px" }}>
-          <Image
-            src="https://react.semantic-ui.com/images/avatar/large/matthew.png"
-            wrapped
-            ui={false}
-          />
+          <Image src={cooper} wrapped ui={false} />
           <Card.Content>
             <Card.Header>Cooper LaRhette</Card.Header>
             <Card.Meta>Computer Science</Card.Meta>
@@ -69,11 +71,7 @@ function Team() {
       </Card.Group>
       <Card.Group centered style={{ marginBottom: "40px" }}>
         <Card style={{ margin: "15px 30px" }}>
-          <Image
-            src="https://react.semantic-ui.com/images/avatar/large/matthew.png"
-            wrapped
-            ui={false}
-          />
+          <Image src={marco} wrapped ui={false} />
           <Card.Content>
             <Card.Header>Marco Bernardini</Card.Header>
             <Card.Meta>Computer Science</Card.Meta>
@@ -89,11 +87,7 @@ function Team() {
           </Card.Content>
         </Card>
         <Card style={{ margin: "15px 30px" }}>
-          <Image
-            src="https://react.semantic-ui.com/images/avatar/large/matthew.png"
-            wrapped
-            ui={false}
-          />
+          <Image src={maya} wrapped ui={false} />
           <Card.Content>
             <Card.Header>Maya Pegler-Gordon</Card.Header>
             <Card.Meta>Computer Science/Animation</Card.Meta>
@@ -109,11 +103,7 @@ function Team() {
           </Card.Content>
         </Card>
         <Card style={{ margin: "15px 30px" }}>
-          <Image
-            src="https://react.semantic-ui.com/images/avatar/large/matthew.png"
-            wrapped
-            ui={false}
-          />
+          <Image src={veda} wrapped ui={false} />
           <Card.Content>
             <Card.Header>Veda Ashok</Card.Header>
             <Card.Meta>Computer Science</Card.Meta>

@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="About">
-      <h1>About</h1>
+      <h1 id="about">About</h1>
       <p>
         You may not know this, but you basically already know Inkling. Inkling
         is a programming language that allows you to follow your gut. Do what

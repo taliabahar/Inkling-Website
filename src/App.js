@@ -12,7 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <NavBar></NavBar>
       <Grid stackable textAlign="center" relaxed>
         <Grid.Row columns={2}>
@@ -30,7 +30,7 @@ function App() {
           <About id="about"></About>
         </Grid.Row>
         <Grid.Row style={{ marginTop: "90px" }} className="row">
-          <Code id="code"></Code>
+          <Code></Code>
         </Grid.Row>
         <Grid.Row style={{ marginTop: "90px" }} className="row">
           <Team id="team"></Team>
