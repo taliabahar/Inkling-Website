@@ -285,7 +285,3 @@ function Code() {
 }
 
 export default Code;
-
-// ouList is List<Text> ["this", "is", "a", "legal", "list", "in", "Inkling"]
-// aListOfNums is List<Text> ["1", "2", "3", "4", "5", "6", "7"]
-// aListOfNums[0] is 0

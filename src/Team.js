@@ -1,9 +1,11 @@
 import React from "react";
 import { Card, Image } from "semantic-ui-react";
 import veda from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Veda.JPG";
+import talia from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Talia.JPG";
 import cooper from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Cooper.jpg";
 import maya from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Maya.jpeg";
 import marco from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Marco.jpeg";
+import sam from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Sam.jpeg";
 
 function Team() {
   return (
@@ -13,11 +15,7 @@ function Team() {
       </h1>
       <Card.Group centered>
         <Card style={{ margin: "15px 30px" }}>
-          <Image
-            src="https://react.semantic-ui.com/images/avatar/large/matthew.png"
-            wrapped
-            ui={false}
-          />
+          <Image src={sam} wrapped ui={false} />
           <Card.Content>
             <Card.Header>Sam Gibson</Card.Header>
             <Card.Meta>Computer Science</Card.Meta>
@@ -49,11 +47,7 @@ function Team() {
           </Card.Content>
         </Card>
         <Card style={{ margin: "15px 30px" }}>
-          <Image
-            src="https://react.semantic-ui.com/images/avatar/large/matthew.png"
-            wrapped
-            ui={false}
-          />
+          <Image src={talia} wrapped ui={false} />
           <Card.Content>
             <Card.Header>Talia Bahar</Card.Header>
             <Card.Meta>Computer Science/Graphic Arts</Card.Meta>
