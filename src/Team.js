@@ -1,11 +1,11 @@
 import React from "react";
 import { Card, Image } from "semantic-ui-react";
-import veda from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Veda.JPG";
-import talia from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Talia.JPG";
-import cooper from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Cooper.jpg";
-import maya from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Maya.jpeg";
-import marco from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Marco.jpeg";
-import sam from "/Users/taliabahar/Desktop/Code/Inkling/src/Images/Sam.jpeg";
+import veda from "./Images/Veda.JPG";
+import talia from "./Images/Talia.JPG";
+import cooper from "./Images/Cooper.jpg";
+import maya from "./Images/Maya.jpeg";
+import marco from "./Images/Marco.jpeg";
+import sam from "./Images/Sam.jpeg";
 
 function Team() {
   return (
